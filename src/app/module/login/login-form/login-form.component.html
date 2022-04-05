@@ -1,0 +1,17 @@
+<div class="login-form">
+    <form (ngSubmit)="onSubmit()" >
+        <div>
+            <h2>Phu Ruji</h2>
+        </div>
+        <div>
+            <label for="Password" class="loging-text">Password</label><br>
+            <input type="password" name="password" id="password" [(ngModel)]="password" placeholder="Enter a Password" class="loging-text">
+        </div>
+        <div *ngIf="isWrong">
+            <p class="wp">Wrong Password</p>
+        </div>
+        <div>
+            <input type="submit" value="Log in" class="login-btn">
+        </div>
+    </form>
+</div>

@@ -1,0 +1,26 @@
+.todo-list{
+    background: #393E46;
+    color: #EEEEEE;
+    text-align: left;
+    width: 400px;
+    min-height: 100px;
+    margin-bottom: 15px;
+    padding-top: 1%;
+    border-radius: 10px;
+}
+
+
+.btn-done{
+    background: #EEEEEE;
+    color: #393E46;
+    width: 100%;
+}
+
+.btn-done:hover{
+    background: #393E46;
+    color: #EEEEEE;
+}
+
+.todo-text{
+    margin-left: 10px;
+}

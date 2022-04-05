@@ -1,0 +1,11 @@
+<div class="todo-list">
+    <div class="todo-text">
+        <h3>{{ todo.todo }}</h3>
+        <p>{{ todo.due }}</p>
+        <p>{{ index }}</p>
+    </div>
+    <div>
+        <button class="btn-done" (click)="onDelete(todo)">Done</button>
+    </div>
+</div>
+

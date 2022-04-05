@@ -1,0 +1,14 @@
+.profile{
+    background: #EEEEEE;
+    text-align: center;
+    width: 1200px;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.pfcontent{
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+}

@@ -1,0 +1,17 @@
+.add-form-todo{
+    background: #EEEEEE;
+    text-align: center;
+    border-radius: 15px;
+    padding-bottom: 40px;
+    padding: 5px;
+}
+
+.add-todo-btn{
+    background: #393E46;
+    color: #EEEEEE;
+}
+
+.add-todo-btn:hover{
+    background: #EEEEEE;
+    color: #393E46;
+}

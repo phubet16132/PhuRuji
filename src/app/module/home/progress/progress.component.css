@@ -1,0 +1,31 @@
+.progress{
+    background: #EEEEEE;
+    text-align: center;
+    width: 1200px;
+    max-height: 800px;
+    border-radius: 15px;
+    padding: 5px;
+    overflow: auto;
+    
+}
+
+.progress::-webkit-scrollbar {
+    width: 1em;
+}
+   
+.progress::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+   
+.progress::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: none;
+    border-radius: 10px;
+}
+
+.pitem{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 30px;
+}

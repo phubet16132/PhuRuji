@@ -1,0 +1,10 @@
+<div class="add-form-todo">
+    <h1>Add TODO</h1><br>
+    <form (ngSubmit)="onSubmit()">
+        <label for="todo">Todo</label><br>
+        <input type="text" placeholder="Enter Todo List" name="todo" id="todo" [(ngModel)]="todo"><br>
+        <label for="dueDate">Due Date</label><br>
+        <input type="date" name="dueDate" id="dueDate" [(ngModel)]="dueDate"><br><br>
+        <input type="submit" class="add-todo-btn">
+    </form>
+</div>

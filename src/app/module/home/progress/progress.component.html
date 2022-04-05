@@ -1,0 +1,10 @@
+<div class="progress">
+    <h1>My Progress</h1>
+    <div class="pitem">
+        <app-pro-item
+            *ngFor="let pro of progresses"
+            [progress]="pro"
+        >
+        </app-pro-item>
+    </div>
+</div>

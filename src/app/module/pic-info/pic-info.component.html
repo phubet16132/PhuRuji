@@ -1,0 +1,16 @@
+<div class="picinfo">
+    <div>
+        <h1>Picture Info</h1>
+    </div>
+    <div>
+        <app-img-slider [picData]="pro"></app-img-slider>
+    </div>
+    <div class="content">
+        <ul *ngFor="let desc of pro.picDes" >
+            <li>{{ desc }}</li>
+        </ul>
+    </div>
+    <div>
+        <a routerLink="/home/progress"><button>Back</button></a>
+    </div>
+</div>

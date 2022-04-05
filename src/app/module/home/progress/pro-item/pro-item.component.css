@@ -1,0 +1,22 @@
+.card{
+    background: #393E46;
+    color: #EEEEEE;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.55);
+    transition: 0.3s;
+    margin: 0 auto;
+}
+
+.card:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.55);
+    cursor: pointer;
+    background: #EEEEEE;
+    color: #393E46;
+}
+
+.imgCard{
+    border-radius: 10px;
+}
