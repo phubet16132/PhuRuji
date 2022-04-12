@@ -20,7 +20,11 @@ const routes: Routes = [
     loadChildren: ()=>
       import('./module/pic-info/pic-info.module').then((m) => m.PicInfoModule)
   },
-
+  {
+    path: 'game-card',
+    loadChildren: ()=>
+      import('./module/game-card/game-card.module').then((m) => m.GameCardModule)
+  },
   {
     path: '',
     loadChildren: () =>

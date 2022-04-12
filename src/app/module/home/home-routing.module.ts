@@ -2,6 +2,7 @@ import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ProgressResolver } from 'src/app/resolve/progress.resolver';
 import { TodoResolver } from 'src/app/resolve/todo.resolver';
+import { GameCardComponent } from '../game-card/game-card.component';
 import { HomeComponent } from './home.component';
 import { PortfoiloComponent } from './portfoilo/portfoilo.component';
 import { ProfileComponent } from './profile/profile.component';
@@ -39,8 +40,8 @@ const routes: Routes = [
         path: '',
         component: ProfileComponent,
       },
-    ]
-  },
+    ],
+  }
   
   
 ];

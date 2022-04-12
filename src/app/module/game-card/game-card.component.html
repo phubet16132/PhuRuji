@@ -1,0 +1,16 @@
+<div class="cardField">
+    <div class="head">
+        <p class="score">Limit: {{time}} / {{limit}}</p>
+        <h1 class="headItem">Match A Card</h1>
+        <button onclick="window.location.reload();" class="reBtn">Restart Game</button>
+    </div>
+    <div class="card">
+        <app-card 
+            *ngFor="let i of cards"
+            [card]="i"
+            (cardSeleted)="cardCome(card.card)"
+            #card
+        >
+        </app-card>
+    </div>
+</div>

@@ -17,7 +17,7 @@ import { NgImageSliderModule } from 'ng-image-slider';
   imports: [
     CommonModule,
     PicInfoRoutingModule,
-    NgImageSliderModule,
+    NgImageSliderModule
   ]
 })
 export class PicInfoModule { }

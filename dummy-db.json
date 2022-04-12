@@ -7,11 +7,6 @@
   ],
   "todos": [
     {
-      "id": 3,
-      "todo": "learn angular",
-      "due": "20/12/05"
-    },
-    {
       "id": 4,
       "todo": "learn smth",
       "due": "20/12/05"
@@ -69,11 +64,11 @@
       "id": 3,
       "picTitle": "VsCode",
       "picPath": [
-        "assets/pic/vsScreen/1.png",
-        "assets/pic/vsScreen/2.png",
-        "assets/pic/vsScreen/3.png",
-        "assets/pic/vsScreen/4.png",
-        "assets/pic/vsScreen/5.png"
+        "/assets/pic/vsScreen/1.png",
+        "/assets/pic/vsScreen/2.png",
+        "/assets/pic/vsScreen/3.png",
+        "/assets/pic/vsScreen/4.png",
+        "/assets/pic/vsScreen/5.png"
       ],
       "picDes": [
         "p13",
@@ -86,11 +81,11 @@
       "id": 4,
       "picTitle": "VsCode",
       "picPath": [
-        "assets/pic/vsScreen/6.png",
-        "assets/pic/vsScreen/7.png",
-        "assets/pic/vsScreen/8.png",
-        "assets/pic/vsScreen/9.png",
-        "assets/pic/vsScreen/10.png"
+        "/assets/pic/vsScreen/6.png",
+        "/assets/pic/vsScreen/7.png",
+        "/assets/pic/vsScreen/8.png",
+        "/assets/pic/vsScreen/9.png",
+        "/assets/pic/vsScreen/10.png"
       ],
       "picDes": [
         "p13",

@@ -25,5 +25,4 @@ export class ImgSliderComponent implements OnInit {
         console.log(e);
     });
   }
-
 }

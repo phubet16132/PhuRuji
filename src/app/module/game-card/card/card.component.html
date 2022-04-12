@@ -1,0 +1,12 @@
+<div class="card"
+    (click)="selectedCard()"
+    [ngStyle]="{'background-color' : color }"
+    *ngIf="!card.paired"
+>
+    <ul>
+        <li>{{ card.id }}</li>
+        <li>{{ card.color }}</li>
+        <li>{{ card.paired }}</li>
+    </ul>
+</div>
+

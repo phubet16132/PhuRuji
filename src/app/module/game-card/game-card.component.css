@@ -1,0 +1,36 @@
+.cardField{
+    background: #EEEEEE;
+    text-align: center;
+    width: 1500px;
+    height: 950px;
+    border-radius: 15px;
+    padding: 5px;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 30px;
+}
+
+.head{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.headItem{
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.score{
+    font-size: 25px;
+}
+
+.reBtn{
+    margin-top: 10px;
+    margin-left: 35px;
+}
